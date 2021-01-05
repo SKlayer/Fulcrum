@@ -408,9 +408,9 @@ namespace BTC
     bool Address::test()
     {
         using Print = Log;
-        constexpr auto badAddress = "1C3SoftYBC2bbDbbDzCadZxDrfbnobEXLBLQZbbD";
+        constexpr auto badAddress = "FGsZGUKd2WFGDPsESKE7CFC8ptcFP6Y194";
         constexpr auto anAddress = "qpu3lsv4uufvzsklf38pfl2wckesyuecxgledta0jl";
-        constexpr auto anAddress_leg = "1C3SoftYBC2bbDzCadZxDrfbnobEXLBLQZ";
+        constexpr auto anAddress_leg = "FGsZGUKd2WFGDPsESKE7CFC8pTcFP6Y194";
         constexpr auto anAddress2 = "bitcoincash:prnc2exht3zxlrqqcat690tc85cvfuypngh7szx6mk";
         constexpr auto anAddress2_leg = "3NoBpEBHZq6YqwUBdPAMW41w5BTJSC7yuQ";
         constexpr auto reg1 = "mxdxDXaKkdX4vFcMFVZKCcZwTLyykvYXir"; // this is regtest but lacks info on what network it is in verbyte so it will be parsed as testnet because legacy
