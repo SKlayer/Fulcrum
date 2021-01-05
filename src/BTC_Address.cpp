@@ -46,7 +46,7 @@ namespace BTC
     namespace {
         // Hash of Net -> [Hash of VerByte -> Kind]
         const QHash<Net, QHash<quint8, Address::Kind> > netVerByteKindMap = {
-            { MainNet,      { {0, Address::P2PKH }, {5, Address::P2SH} } },
+            { MainNet,      { {35, Address::P2PKH }, {5, Address::P2SH} } },
             { TestNet,    { {111, Address::P2PKH }, {196, Address::P2SH} } },
             { TestNet4,   { {111, Address::P2PKH }, {196, Address::P2SH} } },
             { ScaleNet,   { {111, Address::P2PKH }, {196, Address::P2SH} } },
